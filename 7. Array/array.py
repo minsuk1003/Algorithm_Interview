@@ -1,7 +1,7 @@
 from typing import List
 
 class MySolution:
-    # 7. 두 수의 합
+    # 7. 두 수의 합 : 리트코드 1번
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         for i in range(len(nums)):
             for j in range(i + 1, len(nums)):
@@ -11,7 +11,7 @@ class MySolution:
     
     # 결과 : 통과, 시간 복잡도 : O(N^2)
     
-    # 8. 빗물 트래핑
+    # 8. 빗물 트래핑 : 리트코드 42번
     def trap(self, height: List[int]) -> int:
         result = 0
         local_max_list = []
@@ -40,10 +40,10 @@ class MySolution:
     
     # 결과 : 86/322 통과
     
-    # 9. 세 수의 합
+    # 9. 세 수의 합 : 리트코드 15번
     # 시간 내 풀이 실패
     
-    # 10. 배열 파티션 1
+    # 10. 배열 파티션 1 : 리트코드 561번
     def arrayPairSum(self, nums: List[int]) -> int:
         nums.sort()
         sum = 0
@@ -53,7 +53,7 @@ class MySolution:
     
     # 결과 : 통과, 런타임 상위 2%
         
-    # 11. 자신을 제외한 배열의 곱
+    # 11. 자신을 제외한 배열의 곱 : 리트코드 238번
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         result = [1] * len(nums)
 
