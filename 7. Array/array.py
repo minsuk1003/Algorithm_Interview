@@ -9,7 +9,7 @@ class MySolution:
                     return [i, j]
         return []
     
-    # 결과 : 통과, 시간 복잡도 : O(N^2)
+    # 결과 : 통과, 시간 복잡도 : O(N^2), 실행 시간 : 1681ms
     
     # 8. 빗물 트래핑 : 리트코드 42번
     def trap(self, height: List[int]) -> int:
@@ -51,7 +51,7 @@ class MySolution:
             sum += nums[i]
         return sum
     
-    # 결과 : 통과, 런타임 상위 2%
+    # 결과 : 통과, 실행 시간 : 203ms, 상위 2% 
         
     # 11. 자신을 제외한 배열의 곱 : 리트코드 238번
     def productExceptSelf(self, nums: List[int]) -> List[int]:
